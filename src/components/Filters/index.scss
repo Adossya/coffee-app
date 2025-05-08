@@ -1,0 +1,115 @@
+.filter {
+    min-height: 31rem;
+    padding-top: 6rem;
+
+
+    &-wrapper {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+    }
+
+
+    &-form {
+
+
+        &__item {
+
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            color: #000;
+        }
+
+
+        &__input {
+            margin-left: 1.9rem;
+            border-radius: .4rem;
+            width: 18rem;
+            height: 3rem;
+
+            box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+            background-color: #fff;
+
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 12px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+
+
+    &__btns {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3.5rem;
+
+
+        &-subtitle {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+            color: #000;
+        }
+
+        &-wrapper {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+
+        &-button {
+            border-radius: 4px;
+            width: 7.5rem;
+            height: 3rem;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 12px;
+            text-align: center;
+            color: #000;
+            box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+            background-color: #fff;
+
+
+            &:hover {
+                background-color: rgb(128, 185, 128);
+                border: 1px solid yellow;
+                // border-radius: 4px 0 0 4px;
+                color: white;
+                box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+            }
+
+            &.active {
+                background-color: rgb(128, 185, 128);
+                border: 1px solid yellow;
+                // border-radius: 4px 0 0 4px;
+                color: white;
+                box-shadow: 4px 4px 20px 0 rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
+
+    &__items {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+        display: grid;
+
+        grid-template-columns: repeat(3, 22rem);
+
+        justify-content: center;
+        gap: 7.1rem
+    }
+
+
+}
+
+.none {
+    display: none;
+}

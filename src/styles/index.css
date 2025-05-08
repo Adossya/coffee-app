@@ -1,0 +1,29 @@
+:root {
+  font-size: 10px;
+
+
+  --font-family: "Merienda", sans-serif;
+
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-color:  rgb(71, 18, 18) beige;
+    scrollbar-width: thin;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,58 @@
+.card-info {
+    height: 45.5rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35.5rem;
+        gap: 5.5rem;
+    }
+
+
+    &__img {
+        width: 39.9rem;
+        height: 35rem;
+    }
+
+    &__item {
+        width: 42rem;
+        height: 35rem;
+        padding-top: .8rem;
+    }
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    &__country {
+        margin-top: 2.5rem;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 1.4rem;
+
+    }
+
+    &__description {
+        margin-top: 1.6rem;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 1.4rem;
+
+    }
+
+    &__price {
+        margin-top: 1.6rem;
+        font-weight: 400;
+        font-size: 2.4rem;
+        font-family: var(--font-family);
+        b {
+            font-size: 1.4rem;
+        }
+    }
+}

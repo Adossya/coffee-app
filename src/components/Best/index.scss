@@ -1,0 +1,76 @@
+.best {
+    padding: 8rem 31rem 11rem 31rem;
+    min-height: 49.5rem;
+    background: url('../../img/papper.jpg') center center/cover no-repeat;
+    
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+
+    }
+    
+    
+    
+    
+    &__wrapper {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(3, 22rem);
+        gap: 7rem;
+        justify-content: center;
+    }
+
+    &__item {
+        padding-top: 2.1rem;
+        width: 22rem;
+        height: 24rem;
+        box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.25);
+        background-color: rgba(255, 255, 255, 0.65);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 1s all ease;
+
+        cursor: pointer;
+        
+        &:hover {
+            background-color: rgb(176, 212, 226);
+            transform: translateY(-5px);
+        }
+
+
+        &-name {
+            margin-top: 1.4rem;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+
+        }
+
+        &-price {
+            margin-top: 1.4rem;
+            width: calc(100% - 4.2rem);
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 14px;
+            text-align: center;
+            text-align: end;
+        }
+    }
+
+    &__img {
+
+        margin: 0 auto;
+        width: 15rem;
+        height: 13rem;
+        object-fit: contain;
+        border-radius: 8px;
+
+    }
+
+    
+}

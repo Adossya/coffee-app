@@ -1,0 +1,52 @@
+.about-second {
+    height: 48.5rem;
+    padding: 7rem 0rem 6rem 0rem;
+    position: relative;
+    &__wrapper {
+        min-height: 36rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        
+    }
+
+
+    &__img {
+        height: 35.5rem;
+        width: 27rem;
+        object-fit: contain;
+    }
+
+
+    &__title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    &__description {
+        margin: 0 auto;
+        width: 34.5rem;
+        margin-top: 2.5rem;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+
+    }
+    p:first-child {
+        margin-bottom: 1.5rem;
+    }
+
+    &__divider {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 24rem;
+        height: 0.5px;
+        background-color: black;
+    }
+}
